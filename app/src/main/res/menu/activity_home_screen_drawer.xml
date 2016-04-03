@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/menu"
+            android:title="Menu" />
+        <!--<item-->
+            <!--android:id="@+id/nav_bills"-->
+            <!--android:icon="@drawable/billamt"-->
+            <!--android:title="Bills" />-->
+        <item
+            android:id="@+id/navByDates"
+            android:icon="@drawable/calendar"
+            android:title="My Trips" />
+        <item
+            android:id="@+id/navAboutus"
+            android:icon="@drawable/adminicon"
+            android:title="Invite Friends" />
+        <!--<item-->
+            <!--android:id="@+id/nav_TandC"-->
+            <!--android:icon="@drawable/termsprivacy"-->
+            <!--android:title="Terms and Privacy" />-->
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>
